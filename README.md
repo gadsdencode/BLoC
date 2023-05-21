@@ -1,5 +1,5 @@
 # BLoC
-Takes txt files/pdf files, converts them to embeddings with openai and upserts them to Supabase. Code could likely be changed to alternative databases with minimal edits.
+BLoC (Big Load 'o Code) is a python program that takes txt files/pdf files from a directory folder, converts them to embeddings with openai and upserts the embeddings to a Supabase table. Code could likely be changed to alternative databases with minimal edits.
 
 # update .env file with your information
 
