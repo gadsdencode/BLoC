@@ -49,9 +49,9 @@ for file in files:
 
         # Store the text and embedding in Supabase
         try:
-            response = supabase.table('oss-site-embeddings').insert({
-                'title': 'overture-information-pdf',
-                'body': 'overture-data-pdf',
+            response = supabase.table('supabase-table-name-here').insert({
+                'title': 'column-title-here',
+                'body': 'column-body-title-here',
                 'content': body,
                 'embedding': embeddings
             }).execute()
